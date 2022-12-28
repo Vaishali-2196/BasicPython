@@ -18,3 +18,12 @@ def print_numbers_ascending(num):
 print_numbers_descending(10)
 print_numbers_ascending(10)
 print("\n")
+
+string= input("Enter a string: ")
+
+characters= {}
+
+for char in string:
+    characters[char]= characters.get(char, 0) +1
+
+print(characters)
